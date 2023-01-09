@@ -1,0 +1,10 @@
+time=int(input())
+entry=list(map(int,input().spilt()))
+exit=list(map(int, input().spilt()))
+Present=0
+Total_guest=0
+for i in range(time):
+    Present +=entry[i]-exit[i]
+    if Total_guess < Present:
+        Total_guests = Present
+print(Total_guests, end = " " )        
