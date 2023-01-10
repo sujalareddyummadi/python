@@ -1,0 +1,8 @@
+countofWords = len("Hello This is python Programming".split())
+print("Count of Words in the given Sentence:", countofWords)
+
+
+print(len("Hello This is python Programming".split()))
+
+print(len(input("Enter Input:").split()))
+
